@@ -1,0 +1,19 @@
+{
+  "expo": {
+    "name": "CalcReceitas",
+    "slug": "meuapp",
+    "platforms": ["android"],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png"
+    },
+    "updates": {
+      "enabled": true
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}

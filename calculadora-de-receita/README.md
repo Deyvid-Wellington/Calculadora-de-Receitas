@@ -1,0 +1,2 @@
+Este app foi criado para o projeto de extensão da Universidade Estácio de Sá, do curso Engenharia de Software e da disciplina Programação Para Dispositivos Móveis em Android, pelo aluno Deyvid Wellington, para ajudar a calcular os lucros de uma receita ou produto que o usuário for vender. Ele pega o gastos da sua receita, a quantidade produzida e o preço que você for vender para lhe dar o lucro em reais e porcentagem.
+Este código foi criado no snack.expo.dev , ele usa javascript e react native.
