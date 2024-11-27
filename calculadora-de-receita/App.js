@@ -86,6 +86,7 @@ export default function App() {
       profit,
       profitPercentage,
       quantity: parseInt(quantity),
+      unitPrice: parseFloat(unitPrice), 
     };
 
     const updatedRecipes = [...recipes, newRecipe];
@@ -112,6 +113,7 @@ export default function App() {
       <Text style={styles.recipeTitle}>{item.title}</Text>
       {item.description ? <Text style={styles.text}>{item.description}</Text> : null}
       <Text style={styles.text}>Quantidade Produzida: {item.quantity}</Text>
+      <Text style={styles.text}>Preço Unitário de Venda: R${item.unitPrice.toFixed(2)}</Text>
       <Text style={styles.text}>Gasto Total: R${item.totalExpense.toFixed(2)}</Text>
       <Text style={styles.text}>Preço Total de Venda: R${item.totalSales.toFixed(2)}</Text>
       <Text style={styles.text}>Lucro: R${item.profit.toFixed(2)}</Text>
